@@ -2,9 +2,11 @@
 name = "consul-client"
 version = "0.1.0"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/casey-digennaro/consul-client"
+repository = "https://github.com/SuperInstance/consul-client"
 edition = "2021"
 description = "Async Consul HTTP client with service discovery and KV store support"
+
+keywords = ["consul-client"]
 
 [dependencies]
 reqwest = { version = "0.12", features = ["json"] }
